@@ -11,9 +11,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 import static java.lang.System.exit;
 
 public class MultithreadedList {
-    private static final int NUM_PRESENTS = 50_000;
+    private static final int NUM_PRESENTS = 250_000;
     private static final int NUM_THREADS = 4;
-    private static final int SEARCH_LIMIT = 10_000;
+    private static final int SEARCH_LIMIT = 50_000;
 
     public static void main(String[] args) throws InterruptedException {
         LinkedList<Integer> list = new LinkedList<>();
